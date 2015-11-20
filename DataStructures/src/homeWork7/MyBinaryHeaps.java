@@ -1,4 +1,5 @@
 package homeWork7;
+
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -86,10 +87,11 @@ public class MyBinaryHeaps<T extends Comparable<T>> implements Comparator<T> {
 	private int smallestChild(int left, int right) {
 		T leftChild = null;
 		T rightChild = null;
-		if (left >= 0 && left < getCount()) {
+		
+		if (atBorder(left)) {
 			leftChild = (T) getArr()[left];
 		}
-		if (right >= 0 && right < getCount()) {
+		if (atBorder(right)) {
 			rightChild = (T) getArr()[right];
 		}
 
@@ -104,6 +106,10 @@ public class MyBinaryHeaps<T extends Comparable<T>> implements Comparator<T> {
 		} else {
 			return right;
 		}
+	}
+
+	private boolean atBorder(int child) {
+		return child >= 0 && child < getCount();
 	}
 
 	/**
