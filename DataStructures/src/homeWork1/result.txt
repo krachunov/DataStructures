@@ -1,0 +1,20 @@
+
+Total Time: 9444 nanosecond to add element in to 0 position
+Total Time: 4350 nanosecond to add element in to 1 position
+Total Time: 3055 nanosecond to add element in to 2 position
+Total Time: 3355 nanosecond to add element in to 3 position
+Total Time: 2805 nanosecond to add element in to 4 position
+Total Time: 2515 nanosecond to add element in to 5 position
+Total Time: 2335 nanosecond to add element in to 6 position
+Total Time: 2340 nanosecond to add element in to 7 position
+Total Time: 2160 nanosecond to add element in to 8 position
+Total Time: 3535 nanosecond to remove 8 element
+Total Time: 2355 nanosecond to remove 0 element
+Total Time: 450 nanosecond to get lenght
+Total Time: 4270 nanosecond to remove 3 element
+Total Time: 2230 nanosecond to remove 0 element
+Total Time: 2625 nanosecond to remove 4 element
+Total Time: 475 nanosecond to get lenght
+Total Time: 955 nanosecond to get element in to 3 position
+Total Time: 1015 nanosecond to get element in to 0 position
+Total Time: 945 nanosecond to get element in to 3 position
